@@ -107,6 +107,6 @@ Don't forget to give the project a star! Thanks again!
 
 <p align="right">(<a href="#readme-top">Back to top</a>)</p>
 
-### Contac 
-Rohit Naikawadi -  https://www.linkedin.com/in/rohit26100/
-Project Link-
+### Contact
+Rohit Naikawadi -  https://www.linkedin.com/in/rohit26100/  <br>
+Project Link-  https://github.com/rohitnaikawadi26/Charity-Webiste-Wildlife-Welfare-Network
