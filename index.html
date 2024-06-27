@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Author: Rohit Naikawadi - Wildlife Welfare Network - for submission of MERN Project 1
+    />
+    <meta name="theme-color" content="#f1f1f1" />
+
+    <link rel="manifest" href="manifest.json" />
+    <link rel="icon" type="image/x-icon" href="image/favicon.ico?v=2" />
+    <link rel="apple-touch-icon" href="image/apple-touch-icon.webp" />
+
+    <title>Charity</title>
+
+    <!-- Font Awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+
+    <!-- Swiper -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <!-- JQuery -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"
+    ></script>
+
+    <!-- Waypoints -->
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"
+    ></script>
+
+    <!-- CounterUp 2 -->
+    <script
+      defer
+      src="https://unpkg.com/counterup2@2.0.2/dist/index.js"
+    ></script>
+
+    <!-- External JS -->
+    <script defer src="js/script.js"></script>
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link
+      rel="preload"
+      href="image/hero-img.avif"
+      as="image"
+      fetchpriority="high"
+      type="image/avif"
+    />
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header class="header">
+      <a href="#" class="logo"><i class="fa-solid fa-paw"></i> Wildlife Welfare Network</a>
+      <nav class="navbar">
+        <a href="#home" aria-label="home">Home</a>
+        <a href="#about" aria-label="about">About</a>
+        <a href="#service" aria-label="service">Service</a>
+        <a href="#donate" aria-label="donation">Donation</a>
+        <a href="#contact" aria-label="contact">Contact</a>
+      </nav>
+      <div class="icons">
+        <!-- Responsive Navbar -->
+        <div id="menu-btn" class="fas fa-bars menu-btn"></div>
+        <a
+          href="#search"
+          id="search-btn"
+          class="fas fa-search"
+          aria-label="search"
+        ></a>
+        <a
+          href="#donate"
+          class="fas fa-hand-holding-heart"
+          aria-label="donate-navbar"
+        ></a>
+        <a
+          href="#login"
+          id="login-btn"
+          class="fas fa-user"
+          aria-label="login"
+        ></a>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Back To Top Start -->
+    <button id="back-to-top-btn" class="back-to-top-btn">
+      <i class="fa fa-chevron-up"></i>
+    </button>
+    <!-- Back To Top End -->
+
+    <!-- Main Content Start -->
+    <main>
+      <!-- Hero Start-->
+      <article class="hero" id="home">
+        <div class="row">
+          <div class="content">
+            <h1>
+              Be a Hero to Rescue
+              <br />
+              <strong>World's Animals</strong>
+            </h1>
+            <p class="hero-text">
+              Will you help create a better tomorrow for vulnerable wildlife and
+              fragile habitats around the world?. Today you can save the
+              species, tomorrow may be to late. Make your donation today and be
+              a hero for our beautiful planet.
+            </p>
+            <div class="wrapper">
+              <a href="#donate" class="btn-hero"
+                ><span
+                  ><i class="fa-solid fa-hand-holding-heart"></i> Donate
+                  Now!</span
+                ></a
+              >
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- Hero End -->
+
+      <!-- About Start -->
+      <article class="about">
+        <div class="about-image" id="about"></div>
+        <div class="about-container">
+          <p><i class="fa-solid fa-leaf"></i> Learn About Us</p>
+          <h1>Worldwide Animal <strong>Charity Organization</strong></h1>
+          <p>
+            Animal Aid is an organization that saves animals from suffering,
+            rehabilitates and releases them back into the wild, and also works
+            to protect their precious natural habitat. Our organization was
+            founded on the belief that animals are entitled to good and
+            respectful treatment at the hands of humans and should be protected
+            by law.
+          </p>
+          <div class="icons-container">
+            <div class="icons">
+              <i class="fa-solid fa-bowl-food"></i>
+              <span>Foods</span>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-droplet"></i>
+              <span>Water</span>
+            </div>
+            <div class="icons">
+              <i class="fa-solid fa-briefcase-medical"></i>
+              <span>Medical</span>
+            </div>
+          </div>
+        </div>
+      </article>
+      <!-- About End -->
+
+      <!-- Service Start  -->
+      <article class="service">
+        <div class="service-container swiper">
+          <div class="title" id="service">
+            <p class="title-sub">What We Do</p>
+            <h1 class="title-description">
+              We Work Differently to <br />
+              Keep The World Safe
+            </h1>
+          </div>
+          <div class="slide-container">
+            <div class="card-wrapper swiper-wrapper">
+              <div class="card swiper-slide">
+                <div class="image-box">
+                  <img
+                    src="image/doing-img1.avif"
+                    width="315"
+                    height="200"
+                    alt="Image"
+                    loading="lazy"
+                    fetchpriority="low"
+                  />
+                </div>
+                <div class="service-details-container">
+                  <div class="service-details">
+                    <h1>Save Nature</h1>
+                    <h2 class="service-name">
+                      We keep nature healthy and quality
+                    </h2>
+                    <a href="#service" class="btn-service">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-box">
+                  <img
+                    src="image/doing-img2.avif"
+                    width="315"
+                    height="200"
+                    alt="Image"
+                    loading="lazy"
+                    fetchpriority="low"
+                    fetchpriority="low"
+                  />
+                </div>
+                <div class="service-details-container">
+                  <div class="service-details">
+                    <h1>Save Ocean</h1>
+                    <h2 class="service-name">
+                      We keep Ocean healthy and quality
+                    </h2>
+                    <a hred="#service" class="btn-service">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-box">
+                  <img
+                    src="image/doing-img3.avif"
+                    width="315"
+                    height="200"
+                    alt="Image"
+                    loading="lazy"
+                    fetchpriority="low"
+                    fetchpriority="low"
+                  />
+                </div>
+                <div class="service-details-container">
+                  <div class="service-details">
+                    <h1>Rehabilitation</h1>
+                    <h2 class="service-name">
+                      We provide care for injured animals
+                    </h2>
+                    <a hred="#service" class="btn-service">Read More</a>
+                  </div>
+                </div>
+              </div>
+              <div class="card swiper-slide">
+                <div class="image-box">
+                  <img
+                    src="image/doing-img4.avif"
+                    width="315"
+                    height="200"
+                    alt="Image"
+                    loading="lazy"
+                    fetchpriority="low"
+                  />
+                </div>
+                <div class="service-details-container">
+                  <div class="service-details">
+                    <h1>Release Them</h1>
+                    <h2 class="service-name">
+                      We release animals into their habitat
+                    </h2>
+                    <a hred="#service" class="btn-service">Read More</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-button-next swiper-navBtn"></div>
+          <div class="swiper-button-prev swiper-navBtn"></div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </article>
+      <!-- Service End -->
+
+      <!-- Counter Start-->
+      <article class="main-counter" id="main-counter">
+        <div class="main-counter-container">
+          <div class="counter-up">
+            <div class="content">
+              <div class="box">
+                <div class="icon"><i class="fa-solid fa-earth-asia"></i></div>
+                <div class="counter-container">
+                  <div class="counter">120</div>
+                  <div class="plus">+</div>
+                </div>
+                <div class="text">Countries</div>
+              </div>
+              <div class="box">
+                <div class="icon"><i class="fa-solid fa-people-group"></i></div>
+                <div class="counter-container">
+                  <div class="counter">1600</div>
+                  <div class="plus">+</div>
+                </div>
+                <div class="text">Volunteers</div>
+              </div>
+              <div class="box">
+                <div class="icon"><i class="fa-sharp fa-solid fa-paw"></i></div>
+                <div class="counter-container">
+                  <div class="counter">6000</div>
+                  <div class="plus">+</div>
+                </div>
+                <div class="text">Species</div>
+              </div>
+              <div class="box">
+                <div class="icon"><i class="fa-solid fa-sack-dollar"></i></div>
+                <div class="counter-container">
+                  <div class="counter">10000</div>
+                  <div class="plus">$</div>
+                </div>
+                <div class="text">Our Goal</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+      <!-- Counter End -->
+
+      <!-- Donate Start -->
+      <article class="donate" id="donate-main">
+        <div class="donate-container">
+          <div class="title">
+            <p class="title-sub">Popular Causes</p>
+            <h1 class="title-description">
+              Let's know about charity causes <br />
+              Around the world
+            </h1>
+          </div>
+
+          <div class="box-container" id="donate">
+            <div class="box">
+              <div class="image">
+                <img
+                  src="image/charity-img1.avif"
+                  alt="Image"
+                  loading="lazy"
+                  fetchpriority="high"
+                />
+              </div>
+              <div class="content">
+                <h1>Orang Utan</h1>
+                <p>
+                  Save for Orang Utan around the world. Today you can save them
+                  tomorrow may be too late
+                </p>
+                <a href="#donate" class="btn-donate" aria-label="donate button"
+                  >Donate Now</a
+                >
+                <div class="icons">
+                  <span> <i class="fas fa-calendar"></i> 28 Dec, 2023 </span>
+                  <span> <i class="fa-solid fa-dollar-sign"></i> 7500 </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="image">
+                <img
+                  src="image/charity-img2.avif"
+                  alt="Image"
+                  loading="lazy"
+                  fetchpriority="high"
+                />
+              </div>
+              <div class="content">
+                <h1>Bear</h1>
+                <p>
+                  Let's save for Bear around the world. Today you can save them
+                  tomorrow may be too late
+                </p>
+                <a href="#donate" class="btn-donate" aria-label="donate button"
+                  >Donate Now</a
+                >
+                <div class="icons">
+                  <span> <i class="fas fa-calendar"></i> 28 Dec, 2023 </span>
+                  <span> <i class="fa-solid fa-dollar-sign"></i> 3500 </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="image">
+                <img
+                  src="image/charity-img3.avif"
+                  alt="Image"
+                  loading="lazy"
+                  fetchpriority="high"
+                />
+              </div>
+              <div class="content">
+                <h1>Koala</h1>
+                <p>
+                  Let's save for Koala around the world. Today you can save them
+                  tomorrow may be too late
+                </p>
+                <a href="#donate" class="btn-donate" aria-label="donate button"
+                  >Donate Now</a
+                >
+                <div class="icons">
+                  <span> <i class="fas fa-calendar"></i> 28 Dec, 2023 </span>
+                  <span> <i class="fa-solid fa-dollar-sign"></i> 9500 </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="image">
+                <img
+                  src="image/charity-img4.avif"
+                  alt="Image"
+                  loading="lazy"
+                  fetchpriority="low"
+                />
+              </div>
+              <div class="content">
+                <h1>Dog</h1>
+                <p>
+                  Let's save for Dog around the world. Today you can save them
+                  tomorrow may be too late
+                </p>
+                <a href="#donate" class="btn-donate" aria-label="donate button"
+                  >Donate Now</a
+                >
+                <div class="icons">
+                  <span> <i class="fas fa-calendar"></i> 30 Dec, 2023 </span>
+                  <span> <i class="fa-solid fa-dollar-sign"></i> 8500 </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="image">
+                <img
+                  src="image/charity-img5.avif"
+                  alt="Image"
+                  loading="lazy"
+                  fetchpriority="low"
+                />
+              </div>
+              <div class="content">
+                <h1>Cat</h1>
+                <p>
+                  Let's save for Cat around the world. Today you can save them
+                  tomorrow may be too late
+                </p>
+                <a href="#donate" class="btn-donate" aria-label="donate button"
+                  >Donate Now</a
+                >
+                <div class="icons">
+                  <span> <i class="fas fa-calendar"></i> 30 Dec, 2023 </span>
+                  <span> <i class="fa-solid fa-dollar-sign"></i> 7500 </span>
+                </div>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="image">
+                <img
+                  src="image/charity-img6.avif"
+                  alt="Image"
+                  loading="lazy"
+                  fetchpriority="low"
+                />
+              </div>
+              <div class="content">
+                <h1>Tiger</h1>
+                <p>
+                  Let's save for Tiger around the world. Today you can save them
+                  tomorrow may be too late
+                </p>
+                <a href="#donate" class="btn-donate" aria-label="donate button"
+                  >Donate Now</a
+                >
+                <div class="icons">
+                  <span> <i class="fas fa-calendar"></i> 30 Dec, 2023 </span>
+                  <span> <i class="fa-solid fa-dollar-sign"></i> 1500 </span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="load-more">Load More</div>
+        </div>
+      </article>
+      <!-- Donate End -->
+
+      <section class="countdown-section">
+        <div class="container-countdown">
+          <h2 class="section-heading">big event at Ramadhan</h2>
+          <h1 class="sub-heading">coming soon</h1>
+          <div class="countdown-timer">
+            <div class="countdown-timer-item">
+              <span class="countdown-timer-value" id="days">00</span>
+              <span class="countdown-timer-label">days</span>
+            </div>
+            <div class="countdown-timer-item">
+              <span class="countdown-timer-value" id="hours">00</span>
+              <span class="countdown-timer-label">hours</span>
+            </div>
+            <div class="countdown-timer-item">
+              <span class="countdown-timer-value" id="minutes">00</span>
+              <span class="countdown-timer-label">minutes</span>
+            </div>
+            <div class="countdown-timer-item">
+              <span class="countdown-timer-value" id="seconds">00</span>
+              <span class="countdown-timer-label">seconds</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <article class="contact" id="contact">
+        <!-- Contact Start -->
+        <div class="contact-form">
+          <div class="card">
+            <h1>Contact Us</h1>
+            <form action="" method="POST">
+              <div class="form-group">
+                <label class="label-contact" for="email">Email</label>
+                <input
+                  class="contact-input"
+                  type="text"
+                  name="email"
+                  id="email"
+                  placeholder="Your Email..."
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label class="label-contact" for="subject">Subjet</label>
+                <input
+                  class="contact-input"
+                  type="text"
+                  name="subject"
+                  id="subject"
+                  placeholder="Subject..."
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label for="message" class="label-contact">Message</label>
+                <textarea
+                  class="contact-textarea"
+                  name="message"
+                  id="message"
+                  cols="15"
+                  rows="10"
+                  placeholder="Your Message..."
+                  required
+                ></textarea>
+              </div>
+              <div class="form-group">
+                <input type="button" value="Submit" class="btn-contact" />
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- Contact End -->
+
+        <!-- My Bio Start -->
+        <aside class="my-bio">
+          <div class="contact-bio">
+            <div class="card">
+              <img
+                src="image/My_image.jpg"
+                alt="Profile photo of creator"
+                class="profile-contact"
+                loading="lazy"
+                fetchpriority="low"
+              />
+              <h1 class="name-bio">Rohit Naikawadi</h1>
+              <p class="text-muted">
+                System Information Student at LPU University
+              </p>
+              <div class="table-container">
+                <table class="bio-table">
+                  <tbody>
+                    <tr>
+                      <th>Email</th>
+                      <td>rohitnaikawadi2610@gmail.com</td>
+                    </tr>
+                    <tr>
+                      <th>Hobbi</th>
+                      <td>Travelling and playing outdoor sports</td>
+                    </tr>
+                    <tr>
+                      <th>Motto</th>
+                      <td>Your mindset determines the quality of your life</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </aside>
+        <!-- My Bio End -->
+      </article>
+    </main>
+    <!-- Main Content End -->
+
+    <!-- Footer Start -->
+    <footer class="footer" id="footer">
+      <div class="main-content-footer">
+        <div class="left box">
+          <h2>About us</h2>
+          <div class="content">
+            <p>
+              Animal Aid is an organization that saves animals from suffering,
+              rehabilitates and releases them back into the wild, and also works
+              to protect their precious natural habitat. Our organization was
+              founded on the belief that animals are entitled to good and
+              respectful treatment at the hands of humans and should be
+              protected by law.
+            </p>
+
+            <div class="social">
+              <a
+                href="https://www.linkedin.com/in/rohit26100/"
+                target="_blank"
+                aria-label="Linkedin"
+                ><span class="fab fa-linkedin"></span
+              ></a>
+              <a
+                href="https://x.com/Rohittt2610"
+                target="_blank"
+                aria-label="twitter"
+                ><span class="fab fa-twitter"></span
+              ></a>
+              <a
+                href="https://www.instagram.com/_million_dollar_26/"
+                target="_blank"
+                aria-label="instagram"
+                ><span class="fab fa-instagram"></span
+              ></a>
+              <a
+                href="hhttps://github.com/rohitnaikawadi26"
+                target="_blank"
+                aria-label="github"
+                ><span class="fa-brands fa-github"></span
+              ></a>
+            </div>
+          </div>
+        </div>
+        <div class="center box">
+          <h2>Address</h2>
+          <div class="content">
+            <div class="place">
+              <span class="fas fa-map-marker-alt"></span>
+              <span class="text">India, Earth</span>
+            </div>
+            <div class="phone">
+              <span class="fas fa-phone-alt"></span>
+              <span class="text">+91-73876-12610</span>
+            </div>
+            <div class="email">
+              <span class="fas fa-envelope"></span>
+              <span class="text">WildlifeWelfareNetwork@gmail.com</span>
+            </div>
+          </div>
+        </div>
+        <div class="right box">
+          <h2>Become Member</h2>
+          <div class="content">
+            <form>
+              <div class="email">
+                <div class="text">Name</div>
+                <input type="email" placeholder="Your Name ..." required />
+              </div>
+              <div class="msg">
+                <div class="text">Email</div>
+                <input type="text" placeholder="Your Email..." required />
+              </div>
+              <div class="btn-member">
+                <button type="button">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="bottom">
+        <span class="credit"
+          >Copyright <span class="far fa-copyright"></span> 2023
+        </span>
+        <span>
+          <a
+            href="hhttps://github.com/rohitnaikawadi26"
+            aria-label="github"
+            target="_blank"
+            >Rohit Naikawadi</a
+          >
+          | All rights reserved.</span
+        >
+      </div>
+    </footer>
+    <!-- Footer End  -->
+
+    <!-- SwiperJS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  </body>
+</html>
