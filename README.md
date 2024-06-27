@@ -72,7 +72,7 @@ A code editor like VS Code
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Muhthoriqas/Animal-Aid.git
+   git clone https://github.com/rohitnaikawadi26/Charity-Webiste-Wildlife-Welfare-Network.git
    ```
 2. Go to project
    ```sh
