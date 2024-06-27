@@ -32,8 +32,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Wildlife Welfare Network
 
-![DashBoard ](https://user-images.githubusercontent.com/72277295/210133735-dbf889de-2db1-4cbf-9bd6-e2413bc07bb2.png)
-
+![DashBoard ]![Screenshot 2024-06-27 170622](https://github.com/rohitnaikawadi26/Charity-Webiste-ildlife-Welfare-Network-/assets/130615127/2b63f465-88a2-4f2d-8529-b6247ff281a6)
 Animal Aid is a dedicated organization focused on saving animals from suffering, rehabilitating them, and releasing them back into their natural habitats. We also work tirelessly to protect these precious habitats to ensure a safe and sustainable environment for wildlife. Founded on the belief that all animals deserve good and respectful treatment, Animal Aid strives to ensure that animals are protected by law and treated with compassion by humans.
 
 Mission Statement
